@@ -1,0 +1,32 @@
+{
+    "admin": {
+        "password": "admin123",
+        "role": "admin"
+    },
+    "1": {
+        "password": "1",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "b6db68e6",
+                "link": "b6db68e6",
+                "login_url": "/b6db68e6/login",
+                "dashboard_url": "/b6db68e6/home",
+                "full_link": "http://127.0.0.1:5000/b6db68e6/home",
+                "type": "static",
+                "ram": "4GB",
+                "disk": "10GB",
+                "status": "running",
+                "pid": 1226,
+                "created": "2026-06-23 21:51:19.962527",
+                "expiry": "2026-07-23 21:51:19.874984",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 80,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false,
+                "started_at": "2026-06-23 21:52:31.057220"
+            }
+        ]
+    }
+}
